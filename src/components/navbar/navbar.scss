@@ -1,0 +1,78 @@
+$azul: #002A54;
+$morado: #846cc3;
+$background: rgb(244, 244, 244);
+/* header */
+.header{
+    margin: 0;
+    padding: 0;
+    nav{
+        padding: 10px 20px;
+        display: flex;
+        background-color: $morado;
+        .burger{
+            width: 5%;
+            color: white;
+        }
+        .links{
+            width: 95%;
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .sub-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        color: white;
+        background-color: $azul;
+        align-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 200;
+        h3{
+            font-weight: 200;
+        }
+        .regresar{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .logo{
+            display: flex;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .lema{
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
+        }
+        .texto{
+            text-transform: uppercase;
+            width: 35%;
+            text-align: center;
+        }
+        .buscar{
+            background-color: $morado;
+            padding: 10px 20px;
+            span{
+                margin-right: 10px;
+                color: $azul;
+            }
+            input{
+                background-color: $morado;
+                color: white;
+                border: 1px solid transparent;
+                padding: 5px;
+                height: 100%;
+            }
+        }
+    }
+}
